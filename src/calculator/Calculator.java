@@ -71,7 +71,6 @@ public class Calculator {
 
     private static boolean is_roman(String elem) {
         switch (elem) {
-            case "O":
             case "I":
             case "II":
             case "III":
@@ -89,7 +88,6 @@ public class Calculator {
 
     private static boolean is_num(String elem) throws Exception {
         switch (elem) {
-            case "0":
             case "1":
             case "2":
             case "3":
@@ -182,9 +180,6 @@ public class Calculator {
 
             }
 
-//            if (count_elems > 3) {
-//                throw new Exception("Количество операндов и оператора должно равнятся трем");
-//            }
 
         }
 
